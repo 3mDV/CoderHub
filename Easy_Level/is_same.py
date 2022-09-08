@@ -5,6 +5,3 @@ def is_same(name1, name2):
     else:
         return "غير متشابهتين"
 
-from Desktop.Easy_Level import last_elm
-
-print(dir(last_elm))

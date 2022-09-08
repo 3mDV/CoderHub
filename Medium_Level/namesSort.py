@@ -7,3 +7,4 @@ def namesSort(namesArray: List[str], order: str) -> List[str]:
     else:
         namesArray.sort(reverse=True)
         return namesArray
+

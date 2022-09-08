@@ -7,4 +7,4 @@ def math_expr(expr: str) -> bool:
             result.append(True)
         else:
             result.append(False)
-    return True if not(False in result) else False
+    return True if not (False in result) else False

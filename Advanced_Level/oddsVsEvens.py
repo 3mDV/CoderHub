@@ -4,7 +4,7 @@ def oddsVsEvens(num: int) -> str:
     odd = 0
     even = 0
     for i in [int(n) for n in str(num)]:
-        if i % 2 == 0:
+        if (i % 2) == 0:
             even = even + i
         else:
             odd = odd + i
@@ -14,3 +14,4 @@ def oddsVsEvens(num: int) -> str:
         return "even"
     else:
         return "equal"
+

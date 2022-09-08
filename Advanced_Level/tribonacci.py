@@ -7,3 +7,5 @@ def tribonacci(num: int) -> List[int]:
             tribonacci_numbers.append(sum(tribonacci_numbers[i:]))
 
     return list(tribonacci_numbers[:num])
+
+

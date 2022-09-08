@@ -8,3 +8,4 @@ def arrowDuplicates(word: str) -> str:
         else:
             result = result + ">"
     return str(result)
+

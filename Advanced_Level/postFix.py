@@ -4,7 +4,7 @@ def postFix(expr: str) -> int:
     stack = []
     expr1 = expr.split()
     for i in expr1:
-        if i.isdigit() == True:
+        if i.isdigit():
             stack.append(i)
         else:
             operation = i
@@ -17,3 +17,5 @@ def postFix(expr: str) -> int:
                 stack.append(result)
 
     return int(float(stack[0]))
+
+

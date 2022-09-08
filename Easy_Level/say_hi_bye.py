@@ -4,3 +4,6 @@ def say_hi_bye(name, num):
         return "Bye" + ' ' + name
     else:
         return "Hi" + ' ' + name
+
+
+def say_hi_bye1(name: str, num: int): return "Bye %s" % name if num == int(0) else "Hi %s" % name

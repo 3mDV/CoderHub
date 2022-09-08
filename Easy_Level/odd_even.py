@@ -1,7 +1,7 @@
 def odd_even(number):
-  # write your code here
-  if number % 2 == 0:
-    return "زوجي"
-  else:
-    return "فردي"
-    
+    # write your code here
+    if number % 2 == 0:
+        return "زوجي"
+    else:
+        return "فردي"
+

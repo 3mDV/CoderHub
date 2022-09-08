@@ -3,6 +3,6 @@ def longestZero(str) -> str:
 	str = str.split('1')
 	mx = max(str, key=len)
 	if "0" in mx:
-	  return mx
+		return mx
 	else:
-	  return " "
+		return " "
